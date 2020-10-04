@@ -1,0 +1,178 @@
+.container-1{
+    display:flex;
+    flex-direction: row;
+}
+.me{
+    position: fixed;
+    left:0px;
+    height: 100%;
+    width: 525px;
+    background-color: rgb(252, 211, 178);
+    text-align: center;
+}
+.myphoto{
+    display: inline-block;
+    margin-top:65px;
+    width:500px;
+    height:363.6px;
+    background-image: url(a/linguists.jpg);
+    background-size: cover;
+}
+.myphoto:hover{
+    background-image: url(a/linguists-2.jpg);
+    background-size: cover;
+}
+.name h2{
+    margin: 25px;
+    line-height: 1.5;
+}
+.info{
+    height: 100%;
+    width: 280px;
+    position: fixed;
+    right: 0px;
+    background-color: rgb(137, 192, 189);
+    text-align: center;
+}
+h3{
+    font-family: 'Merriweather', serif;
+    margin-bottom:20px;
+}
+h2{
+    font-family: 'Merriweather', serif;
+}
+p{
+    font-family: 'Marmelad', sans-serif;
+    margin-bottom: 30px;
+}
+li{
+    font-family: 'Marmelad', sans-serif;
+}
+.ucheba{
+    margin-top: 100px;
+}
+.hometown{
+    margin-top:40px;
+}
+.school{
+    margin-top:40px;
+}
+.contacts{
+    margin-top:70px
+}
+.links{
+    display: flex;
+    flex-direction: row;
+    margin-left:40px;
+}
+.contacts img{
+    height:40px;
+    margin:5px;
+    transition:0.2s;
+}
+.contacts img:hover{
+    margin-top:-1px;
+    transition:0.2s;
+}
+.copyright{
+    position: fixed;
+    bottom: 10px;
+    right:20px;
+}
+.interests{
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right:50px;
+    padding-bottom:50px;
+    background-color: white;
+    width: 910px;
+    position: absolute;
+    top:50px;
+    left:600px;
+}
+.containimg{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+.about .img:first-of-type{
+    background-image: url(a/nik.jpg);
+}
+.about .img:last-of-type{
+    background-image: url(a/ilya.jpg);
+    background-position: center;
+}
+.about .img{
+    height: 230px;
+    width: 230px;
+    background-size: cover;
+}
+.salam{
+    position: absolute;
+    top:10px;
+    left: 40px;
+    width: 475.5px;
+    height:300px;
+    background-color: white;
+    z-index: 0;
+}
+.salam:hover{
+    background-image: url(saved/salam.jpg);
+    background-size: contain;
+    z-index:3
+}
+.privet{
+    position: absolute;
+    z-index: 2;
+    top: 70px;
+    left: 60px;
+    text-align: center;
+}
+.about{
+    margin-top: 320px;
+    margin-left: 30px;
+    width: 500px;
+}
+.card{
+    width: 665px;
+    margin-left:-80px;
+    background-color: rgb(255, 238, 240);
+}
+.card-body{
+    padding: 5px 0px;
+}
+.card-body div{
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 5px;
+}
+#collapseOne img{
+    width:300px;
+    margin-top:-10px;
+}
+.btn{
+    font-family: 'Marmelad', sans-serif;
+    color: rgb(61, 119, 121);
+    font-size: 16px;
+    background-color: rgb(255, 218, 222);
+    transition: 0.2s;
+}
+.btn:hover{
+    background-color: rgb(255, 203, 208);
+    transition: 0.2s;
+}
+#mainNav{
+    background-color: cadetblue;
+    outline: none;
+}
+#mainNav a{
+    color: rgb(255, 243, 227);
+    transition: 0.2s;
+    font-family: 'Marmelad', sans-serif;
+}
+#mainNav a:hover{
+    color: rgb(255, 199, 169);
+    transition: 0.3s;
+}
